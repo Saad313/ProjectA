@@ -11,7 +11,7 @@ namespace ProjectA
     {
         public SqlConnection connection;
         public string conStr = "Data Source=DESKTOP-EGB6CH6;Initial Catalog=ProjectA;Integrated Security=True";
-        
+
         private static DBconnection Instance;
         private DBconnection()
         {
