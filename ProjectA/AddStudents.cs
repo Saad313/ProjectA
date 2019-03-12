@@ -52,7 +52,7 @@ namespace ProjectA
                         //dat.Fill(table);
                         //dataGridView1.DataSource = table;
                         cmd.CommandText = "Select @@Identity";
-                         id = Convert.ToInt32( cmd.ExecuteScalar());
+                        id = Convert.ToInt32( cmd.ExecuteScalar());
                         string InsertStudent = "INSERT INTO Student(Id, RegistrationNo) VALUES('" + id + "','" + Convert.ToString(txtRegNo.Text) + "')";
                         SqlCommand sqlCommand = new SqlCommand(InsertStudent, con);
                         sqlCommand.ExecuteNonQuery();
