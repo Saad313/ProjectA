@@ -50,6 +50,7 @@ namespace ProjectA
                         //DataTable table = new DataTable();
                         //SqlDataAdapter dat = new SqlDataAdapter(show, con);
                         //dat.Fill(table);
+
                         //dataGridView1.DataSource = table;
                         cmd.CommandText = "Select @@Identity";
                         id = Convert.ToInt32( cmd.ExecuteScalar());
