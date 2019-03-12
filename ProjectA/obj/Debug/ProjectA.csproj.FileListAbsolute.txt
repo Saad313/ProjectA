@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\ProjectA\ProjectA\bin\Debug\ProjectA.exe.config
+C:\Users\user\Desktop\ProjectA\ProjectA\bin\Debug\ProjectA.exe
+C:\Users\user\Desktop\ProjectA\ProjectA\bin\Debug\ProjectA.pdb
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.csprojAssemblyReference.cache
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.AddStudents.resources
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.Login.resources
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.Properties.Resources.resources
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.csproj.GenerateResource.cache
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.exe
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.pdb

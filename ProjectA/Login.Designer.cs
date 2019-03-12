@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.LoginBox = new System.Windows.Forms.GroupBox();
-            this.txtusername = new System.Windows.Forms.TextBox();
-            this.txtpassword = new System.Windows.Forms.TextBox();
-            this.UserName = new System.Windows.Forms.Label();
-            this.Password = new System.Windows.Forms.Label();
             this.cmdLOGIN = new System.Windows.Forms.Button();
+            this.Password = new System.Windows.Forms.Label();
+            this.UserName = new System.Windows.Forms.Label();
+            this.txtpassword = new System.Windows.Forms.TextBox();
+            this.txtusername = new System.Windows.Forms.TextBox();
             this.LoginBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,28 +51,15 @@
             this.LoginBox.TabStop = false;
             this.LoginBox.Text = "Login";
             // 
-            // txtusername
+            // cmdLOGIN
             // 
-            this.txtusername.Location = new System.Drawing.Point(314, 85);
-            this.txtusername.Name = "txtusername";
-            this.txtusername.Size = new System.Drawing.Size(100, 20);
-            this.txtusername.TabIndex = 0;
-            // 
-            // txtpassword
-            // 
-            this.txtpassword.Location = new System.Drawing.Point(314, 149);
-            this.txtpassword.Name = "txtpassword";
-            this.txtpassword.Size = new System.Drawing.Size(100, 20);
-            this.txtpassword.TabIndex = 1;
-            // 
-            // UserName
-            // 
-            this.UserName.AutoSize = true;
-            this.UserName.Location = new System.Drawing.Point(115, 85);
-            this.UserName.Name = "UserName";
-            this.UserName.Size = new System.Drawing.Size(57, 13);
-            this.UserName.TabIndex = 2;
-            this.UserName.Text = "UserName";
+            this.cmdLOGIN.Location = new System.Drawing.Point(355, 231);
+            this.cmdLOGIN.Name = "cmdLOGIN";
+            this.cmdLOGIN.Size = new System.Drawing.Size(75, 23);
+            this.cmdLOGIN.TabIndex = 4;
+            this.cmdLOGIN.Text = "LOGIN";
+            this.cmdLOGIN.UseVisualStyleBackColor = true;
+            this.cmdLOGIN.Click += new System.EventHandler(this.cmdLOGIN_Click);
             // 
             // Password
             // 
@@ -83,14 +70,28 @@
             this.Password.TabIndex = 3;
             this.Password.Text = "Password";
             // 
-            // cmdLOGIN
+            // UserName
             // 
-            this.cmdLOGIN.Location = new System.Drawing.Point(355, 231);
-            this.cmdLOGIN.Name = "cmdLOGIN";
-            this.cmdLOGIN.Size = new System.Drawing.Size(75, 23);
-            this.cmdLOGIN.TabIndex = 4;
-            this.cmdLOGIN.Text = "LOGIN";
-            this.cmdLOGIN.UseVisualStyleBackColor = true;
+            this.UserName.AutoSize = true;
+            this.UserName.Location = new System.Drawing.Point(115, 85);
+            this.UserName.Name = "UserName";
+            this.UserName.Size = new System.Drawing.Size(57, 13);
+            this.UserName.TabIndex = 2;
+            this.UserName.Text = "UserName";
+            // 
+            // txtpassword
+            // 
+            this.txtpassword.Location = new System.Drawing.Point(314, 149);
+            this.txtpassword.Name = "txtpassword";
+            this.txtpassword.Size = new System.Drawing.Size(100, 20);
+            this.txtpassword.TabIndex = 1;
+            // 
+            // txtusername
+            // 
+            this.txtusername.Location = new System.Drawing.Point(314, 85);
+            this.txtusername.Name = "txtusername";
+            this.txtusername.Size = new System.Drawing.Size(100, 20);
+            this.txtusername.TabIndex = 0;
             // 
             // Login
             // 

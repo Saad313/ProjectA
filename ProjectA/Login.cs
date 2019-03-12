@@ -24,5 +24,12 @@ namespace ProjectA
         {
 
         }
+
+        private void cmdLOGIN_Click(object sender, EventArgs e)
+        {
+            AddStudents ass = new AddStudents();
+            this.Hide();
+            ass.Show();
+        }
     }
 }
