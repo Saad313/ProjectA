@@ -10,3 +10,5 @@ C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.csproj.CoreCompileInp
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.exe
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.pdb
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.Advisor.resources
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.AddProject.resources
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.ProjectAdvisor.resources

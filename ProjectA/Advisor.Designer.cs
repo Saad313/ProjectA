@@ -91,7 +91,7 @@
             "Assistant Professor",
             "Lecturer",
             "Industry Professional"});
-            this.cmbDesignation.Location = new System.Drawing.Point(101, 49);
+            this.cmbDesignation.Location = new System.Drawing.Point(101, 46);
             this.cmbDesignation.Name = "cmbDesignation";
             this.cmbDesignation.Size = new System.Drawing.Size(121, 21);
             this.cmbDesignation.TabIndex = 5;

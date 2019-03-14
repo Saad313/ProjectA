@@ -34,6 +34,20 @@ namespace ProjectA
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            ProjectAdvisor ad = new ProjectAdvisor();
+            this.Hide();
+            ad.Show();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            AddProject ap = new AddProject();
+            this.Hide();
+            ap.Show();
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
             Advisor ad = new Advisor();
             this.Hide();
             ad.Show();

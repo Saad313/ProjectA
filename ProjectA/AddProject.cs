@@ -23,6 +23,12 @@ namespace ProjectA
         {
             SqlConnection con = new SqlConnection(conStr);
             con.Open();
+            if(con.State == System.Data.ConnectionState.Open)
+            {
+                string Insert = "INSERT INTO Project(Description, Title) VALUES('" + Convert.ToString(txtdescription.Text) + "', '" + Convert.ToString(txttitle.Text) + "')";
+                SqlCommand cmd = new SqlCommand(Insert, con);
+                cmd.ExecuteNonQuery();
+            }
 
         }
     }
