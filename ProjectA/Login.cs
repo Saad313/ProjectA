@@ -31,5 +31,12 @@ namespace ProjectA
             this.Hide();
             ass.Show();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Advisor ad = new Advisor();
+            this.Hide();
+            ad.Show();
+        }
     }
 }

@@ -9,3 +9,4 @@ C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.csproj.GenerateResour
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.exe
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.pdb
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.Advisor.resources

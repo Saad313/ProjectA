@@ -34,11 +34,13 @@
             this.UserName = new System.Windows.Forms.Label();
             this.txtpassword = new System.Windows.Forms.TextBox();
             this.txtusername = new System.Windows.Forms.TextBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.LoginBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // LoginBox
             // 
+            this.LoginBox.Controls.Add(this.linkLabel1);
             this.LoginBox.Controls.Add(this.cmdLOGIN);
             this.LoginBox.Controls.Add(this.Password);
             this.LoginBox.Controls.Add(this.UserName);
@@ -93,6 +95,17 @@
             this.txtusername.Size = new System.Drawing.Size(100, 20);
             this.txtusername.TabIndex = 0;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(97, 231);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(55, 13);
+            this.linkLabel1.TabIndex = 5;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "linkLabel1";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -116,6 +129,7 @@
         private System.Windows.Forms.TextBox txtpassword;
         private System.Windows.Forms.TextBox txtusername;
         private System.Windows.Forms.Button cmdLOGIN;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 
