@@ -27,9 +27,7 @@ namespace ProjectA
 
         private void cmdLOGIN_Click(object sender, EventArgs e)
         {
-            AddStudents ass = new AddStudents();
-            this.Hide();
-            ass.Show();
+            
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -74,9 +72,7 @@ namespace ProjectA
 
         private void Password_Click(object sender, EventArgs e)
         {
-            ViewStudents vs = new ViewStudents();
-            vs.Show();
-            this.Hide();
+            
         }
 
         private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -90,6 +86,20 @@ namespace ProjectA
         {
             ViewProject vp = new ViewProject();
             vp.Show();
+            this.Hide();
+        }
+
+        private void linkLabel8_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            AddStudents ass = new AddStudents();
+            this.Hide();
+            ass.Show();
+        }
+
+        private void linkLabel9_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ViewStudents vs = new ViewStudents();
+            vs.Show();
             this.Hide();
         }
     }

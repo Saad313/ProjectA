@@ -35,6 +35,7 @@
             this.cmdalocatePAdvisor = new System.Windows.Forms.Button();
             this.lblprojecttitle = new System.Windows.Forms.Label();
             this.cmbtitle = new System.Windows.Forms.ComboBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // lbladvisorrole
@@ -101,11 +102,24 @@
             this.cmbtitle.Size = new System.Drawing.Size(200, 21);
             this.cmbtitle.TabIndex = 6;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Location = new System.Drawing.Point(18, 156);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(74, 18);
+            this.linkLabel1.TabIndex = 7;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "GotoMain";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // ProjectAdvisor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.cmbtitle);
             this.Controls.Add(this.lblprojecttitle);
             this.Controls.Add(this.cmdalocatePAdvisor);
@@ -130,5 +144,6 @@
         private System.Windows.Forms.Button cmdalocatePAdvisor;
         private System.Windows.Forms.Label lblprojecttitle;
         private System.Windows.Forms.ComboBox cmbtitle;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

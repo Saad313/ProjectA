@@ -43,6 +43,7 @@
             this.dtpDOB = new System.Windows.Forms.DateTimePicker();
             this.cmbgender = new System.Windows.Forms.ComboBox();
             this.cmdAddStudent = new System.Windows.Forms.Button();
+            this.cmdGotoMain = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblfname
@@ -179,11 +180,22 @@
             this.cmdAddStudent.UseVisualStyleBackColor = true;
             this.cmdAddStudent.Click += new System.EventHandler(this.cmdAddStudent_Click);
             // 
+            // cmdGotoMain
+            // 
+            this.cmdGotoMain.Location = new System.Drawing.Point(135, 402);
+            this.cmdGotoMain.Name = "cmdGotoMain";
+            this.cmdGotoMain.Size = new System.Drawing.Size(75, 23);
+            this.cmdGotoMain.TabIndex = 15;
+            this.cmdGotoMain.Text = "GotoMain";
+            this.cmdGotoMain.UseVisualStyleBackColor = true;
+            this.cmdGotoMain.Click += new System.EventHandler(this.cmdGotoMain_Click);
+            // 
             // AddStudents
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cmdGotoMain);
             this.Controls.Add(this.cmdAddStudent);
             this.Controls.Add(this.cmbgender);
             this.Controls.Add(this.dtpDOB);
@@ -223,5 +235,6 @@
         private System.Windows.Forms.DateTimePicker dtpDOB;
         private System.Windows.Forms.ComboBox cmbgender;
         private System.Windows.Forms.Button cmdAddStudent;
+        private System.Windows.Forms.Button cmdGotoMain;
     }
 }

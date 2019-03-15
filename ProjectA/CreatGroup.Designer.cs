@@ -38,6 +38,7 @@
             this.cmdCreateGroup = new System.Windows.Forms.Button();
             this.cmbStatus = new System.Windows.Forms.ComboBox();
             this.lblStatus = new System.Windows.Forms.Label();
+            this.cmdgotomain = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -136,11 +137,22 @@
             this.lblStatus.TabIndex = 8;
             this.lblStatus.Text = "Status";
             // 
+            // cmdgotomain
+            // 
+            this.cmdgotomain.Location = new System.Drawing.Point(93, 408);
+            this.cmdgotomain.Name = "cmdgotomain";
+            this.cmdgotomain.Size = new System.Drawing.Size(75, 23);
+            this.cmdgotomain.TabIndex = 9;
+            this.cmdgotomain.Text = "GotoMain";
+            this.cmdgotomain.UseVisualStyleBackColor = true;
+            this.cmdgotomain.Click += new System.EventHandler(this.cmdgotomain_Click);
+            // 
             // CreatGroup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(661, 453);
+            this.Controls.Add(this.cmdgotomain);
             this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.cmbStatus);
             this.Controls.Add(this.cmdCreateGroup);
@@ -171,5 +183,6 @@
         private System.Windows.Forms.Button cmdCreateGroup;
         private System.Windows.Forms.ComboBox cmbStatus;
         private System.Windows.Forms.Label lblStatus;
+        private System.Windows.Forms.Button cmdgotomain;
     }
 }

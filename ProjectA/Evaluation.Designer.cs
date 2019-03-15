@@ -41,6 +41,7 @@
             this.cmdevaluation = new System.Windows.Forms.Button();
             this.lblgroupid = new System.Windows.Forms.Label();
             this.cmbgroupid = new System.Windows.Forms.ComboBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // lblname
@@ -150,11 +151,23 @@
             this.cmbgroupid.Size = new System.Drawing.Size(121, 21);
             this.cmbgroupid.TabIndex = 12;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(364, 336);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(53, 13);
+            this.linkLabel1.TabIndex = 13;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "GotoMain";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // Evaluation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(551, 441);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.cmbgroupid);
             this.Controls.Add(this.lblgroupid);
             this.Controls.Add(this.cmdevaluation);
@@ -191,5 +204,6 @@
         private System.Windows.Forms.Button cmdevaluation;
         private System.Windows.Forms.Label lblgroupid;
         private System.Windows.Forms.ComboBox cmbgroupid;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

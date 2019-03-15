@@ -68,5 +68,12 @@ namespace ProjectA
             }
 
         }
+
+        private void cmdGotoMain_Click(object sender, EventArgs e)
+        {
+            Login l = new Login();
+            this.Hide();
+            l.Show();
+        }
     }
 }
