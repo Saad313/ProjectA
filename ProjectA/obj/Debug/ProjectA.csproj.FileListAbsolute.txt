@@ -12,3 +12,4 @@ C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.pdb
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.Advisor.resources
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.AddProject.resources
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.ProjectAdvisor.resources
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.CreatGroup.resources

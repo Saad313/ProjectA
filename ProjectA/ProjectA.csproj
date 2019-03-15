@@ -58,6 +58,12 @@
     <Compile Include="Advisor.Designer.cs">
       <DependentUpon>Advisor.cs</DependentUpon>
     </Compile>
+    <Compile Include="CreatGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreatGroup.Designer.cs">
+      <DependentUpon>CreatGroup.cs</DependentUpon>
+    </Compile>
     <Compile Include="DBconnection.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -85,6 +91,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Advisor.resx">
       <DependentUpon>Advisor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreatGroup.resx">
+      <DependentUpon>CreatGroup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

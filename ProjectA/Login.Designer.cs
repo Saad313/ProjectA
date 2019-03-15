@@ -137,10 +137,11 @@
             this.linkLabel4.AutoSize = true;
             this.linkLabel4.Location = new System.Drawing.Point(521, 59);
             this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(55, 13);
+            this.linkLabel4.Size = new System.Drawing.Size(61, 13);
             this.linkLabel4.TabIndex = 8;
             this.linkLabel4.TabStop = true;
-            this.linkLabel4.Text = "linkLabel4";
+            this.linkLabel4.Text = "CreatGroup";
+            this.linkLabel4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel4_LinkClicked);
             // 
             // linkLabel5
             // 

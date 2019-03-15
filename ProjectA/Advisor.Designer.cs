@@ -95,6 +95,7 @@
             this.cmbDesignation.Name = "cmbDesignation";
             this.cmbDesignation.Size = new System.Drawing.Size(121, 21);
             this.cmbDesignation.TabIndex = 5;
+            this.cmbDesignation.SelectedIndexChanged += new System.EventHandler(this.cmbDesignation_SelectedIndexChanged);
             // 
             // lblAdvisorId
             // 

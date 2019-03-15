@@ -76,5 +76,10 @@ namespace ProjectA
            
 
         }
+
+        private void cmbDesignation_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
