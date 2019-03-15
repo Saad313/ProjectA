@@ -39,11 +39,15 @@
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.linkLabel5 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel6 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel7 = new System.Windows.Forms.LinkLabel();
             this.LoginBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // LoginBox
             // 
+            this.LoginBox.Controls.Add(this.linkLabel7);
+            this.LoginBox.Controls.Add(this.linkLabel6);
             this.LoginBox.Controls.Add(this.linkLabel1);
             this.LoginBox.Controls.Add(this.cmdLOGIN);
             this.LoginBox.Controls.Add(this.Password);
@@ -86,6 +90,7 @@
             this.Password.Size = new System.Drawing.Size(53, 13);
             this.Password.TabIndex = 3;
             this.Password.Text = "Password";
+            this.Password.Click += new System.EventHandler(this.Password_Click);
             // 
             // UserName
             // 
@@ -102,6 +107,7 @@
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.Size = new System.Drawing.Size(100, 20);
             this.txtpassword.TabIndex = 1;
+            this.txtpassword.TextChanged += new System.EventHandler(this.txtpassword_TextChanged);
             // 
             // txtusername
             // 
@@ -154,6 +160,28 @@
             this.linkLabel5.Text = "linkLabel5";
             this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
             // 
+            // linkLabel6
+            // 
+            this.linkLabel6.AutoSize = true;
+            this.linkLabel6.Location = new System.Drawing.Point(154, 179);
+            this.linkLabel6.Name = "linkLabel6";
+            this.linkLabel6.Size = new System.Drawing.Size(70, 13);
+            this.linkLabel6.TabIndex = 6;
+            this.linkLabel6.TabStop = true;
+            this.linkLabel6.Text = "ViewAdvisors";
+            this.linkLabel6.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel6_LinkClicked);
+            // 
+            // linkLabel7
+            // 
+            this.linkLabel7.AutoSize = true;
+            this.linkLabel7.Location = new System.Drawing.Point(61, 189);
+            this.linkLabel7.Name = "linkLabel7";
+            this.linkLabel7.Size = new System.Drawing.Size(68, 13);
+            this.linkLabel7.TabIndex = 7;
+            this.linkLabel7.TabStop = true;
+            this.linkLabel7.Text = "ViewProjects";
+            this.linkLabel7.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel7_LinkClicked);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -187,6 +215,8 @@
         private System.Windows.Forms.LinkLabel linkLabel3;
         private System.Windows.Forms.LinkLabel linkLabel4;
         private System.Windows.Forms.LinkLabel linkLabel5;
+        private System.Windows.Forms.LinkLabel linkLabel7;
+        private System.Windows.Forms.LinkLabel linkLabel6;
     }
 }
 

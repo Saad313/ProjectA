@@ -66,5 +66,31 @@ namespace ProjectA
             ev.Show();
             this.Hide();
         }
+
+        private void txtpassword_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Password_Click(object sender, EventArgs e)
+        {
+            ViewStudents vs = new ViewStudents();
+            vs.Show();
+            this.Hide();
+        }
+
+        private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ViewAdvisors va = new ViewAdvisors();
+            this.Hide();
+            va.Show();
+        }
+
+        private void linkLabel7_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ViewProject vp = new ViewProject();
+            vp.Show();
+            this.Hide();
+        }
     }
 }

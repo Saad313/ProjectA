@@ -14,3 +14,6 @@ C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.AddProject.resources
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.ProjectAdvisor.resources
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.CreatGroup.resources
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.Evaluation.resources
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.ViewStudents.resources
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.ViewAdvisors.resources
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.ViewProject.resources
