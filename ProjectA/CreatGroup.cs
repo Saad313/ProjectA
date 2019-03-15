@@ -123,8 +123,6 @@ namespace ProjectA
                 {
                     q = "Insert into GroupStudent(GroupId, StudentId, Status, AssignmentDate) " +
                         "Values (" + id + "," + small_s.ToString() + ", 3 ,'" + DateTime.Now.ToString("yyyy-MM-dd") + "')";
-
-                    
                 }
                 else
                 {
