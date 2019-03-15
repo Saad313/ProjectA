@@ -152,6 +152,7 @@
             this.linkLabel5.TabIndex = 9;
             this.linkLabel5.TabStop = true;
             this.linkLabel5.Text = "linkLabel5";
+            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
             // 
             // Login
             // 

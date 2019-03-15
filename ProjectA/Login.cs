@@ -59,5 +59,12 @@ namespace ProjectA
             cg.Show();
             this.Hide();
         }
+
+        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Evaluation ev = new Evaluation();
+            ev.Show();
+            this.Hide();
+        }
     }
 }
