@@ -79,9 +79,9 @@ namespace ProjectA
             }
             if (e.ColumnIndex == 1)
             {
-                //int Id = Convert.ToInt32(row.Cells[2].Value);
+                int Id_e = (int)row.Cells[3].Value;
                 string p_name = row.Cells[6].Value.ToString();
-                DialogResult res = MessageBox.Show("Are you sure you want  to Delete " + p_name, "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+                DialogResult res = MessageBox.Show("Are you sure you want  to Delete " + p_name + "id: " + Id_e, "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
                 if (res == DialogResult.OK)
                 {
 
@@ -98,7 +98,7 @@ namespace ProjectA
                         }
                         if (con.State == ConnectionState.Open)
                         {
-                            string Delete = "DELETE FROM GroupEvaluation WHERE EvaluationId = '" + eval_id + "'";
+                            string Delete = "DELETE FROM GroupEvaluation WHERE EvaluationId = '" + eval_id + "' ";
                             SqlCommand cmd = new SqlCommand(Delete, con);
                             cmd.ExecuteNonQuery();
                         }
