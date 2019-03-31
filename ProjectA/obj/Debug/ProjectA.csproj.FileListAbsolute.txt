@@ -3,7 +3,6 @@ C:\Users\user\Desktop\ProjectA\ProjectA\bin\Debug\ProjectA.exe
 C:\Users\user\Desktop\ProjectA\ProjectA\bin\Debug\ProjectA.pdb
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.csprojAssemblyReference.cache
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.AddStudents.resources
-C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.Login.resources
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.Properties.Resources.resources
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.csproj.GenerateResource.cache
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.csproj.CoreCompileInputs.cache
@@ -17,3 +16,9 @@ C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.Evaluation.resources
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.ViewStudents.resources
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.ViewAdvisors.resources
 C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.ViewProject.resources
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.DashBoard.resources
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.EditStudents.resources
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.EditProject.resources
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.EditAdvisor.resources
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.ViewEvaluation.resources
+C:\Users\user\Desktop\ProjectA\ProjectA\obj\Debug\ProjectA.EditEvaluation.resources

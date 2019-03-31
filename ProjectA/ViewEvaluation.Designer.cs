@@ -1,6 +1,6 @@
 ﻿namespace ProjectA
 {
-    partial class ViewStudents
+    partial class ViewEvaluation
     {
         /// <summary>
         /// Required designer variable.
@@ -31,9 +31,9 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.Update = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Delete = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.lblgotomain = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,30 +43,18 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Update,
             this.Delete});
-            this.dataGridView1.Location = new System.Drawing.Point(38, 84);
+            this.dataGridView1.Location = new System.Drawing.Point(52, 45);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(539, 291);
+            this.dataGridView1.Size = new System.Drawing.Size(666, 327);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(503, 31);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(53, 13);
-            this.linkLabel1.TabIndex = 1;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "GotoMain";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // Update
             // 
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Silver;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Update.DefaultCellStyle = dataGridViewCellStyle1;
-            this.Update.HeaderText = "Update";
+            this.Update.HeaderText = "UPDATE";
             this.Update.Name = "Update";
             this.Update.Text = "UPDATE";
             this.Update.UseColumnTextForButtonValue = true;
@@ -76,21 +64,33 @@
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Delete.DefaultCellStyle = dataGridViewCellStyle2;
-            this.Delete.HeaderText = "Delete";
+            this.Delete.HeaderText = "DELETE";
             this.Delete.Name = "Delete";
             this.Delete.Text = "DELETE";
             this.Delete.UseColumnTextForButtonValue = true;
             // 
-            // ViewStudents
+            // lblgotomain
+            // 
+            this.lblgotomain.AutoSize = true;
+            this.lblgotomain.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblgotomain.Location = new System.Drawing.Point(520, 399);
+            this.lblgotomain.Name = "lblgotomain";
+            this.lblgotomain.Size = new System.Drawing.Size(87, 20);
+            this.lblgotomain.TabIndex = 1;
+            this.lblgotomain.TabStop = true;
+            this.lblgotomain.Text = "GoTo Main";
+            this.lblgotomain.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblgotomain_LinkClicked);
+            // 
+            // ViewEvaluation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(683, 419);
-            this.Controls.Add(this.linkLabel1);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblgotomain);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "ViewStudents";
-            this.Text = "ViewStudents";
-            this.Load += new System.EventHandler(this.ViewStudents_Load);
+            this.Name = "ViewEvaluation";
+            this.Text = "ViewEvaluation";
+            this.Load += new System.EventHandler(this.ViewEvaluation_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -100,7 +100,7 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel lblgotomain;
         private System.Windows.Forms.DataGridViewButtonColumn Update;
         private System.Windows.Forms.DataGridViewButtonColumn Delete;
     }

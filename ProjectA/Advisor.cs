@@ -46,7 +46,7 @@ namespace ProjectA
                 { Desig = "9"; }
                 if (cmbDesignation.SelectedIndex == 4)
                 { Desig = "10"; }
-                data = "insert into Advisor(Id, Designation , Salary) values ( '"+ Convert.ToString(txtadvisorid.Text)+"' ,  '" + Convert.ToInt32( Desig) + "', '" + Convert.ToString(txtsalary.Text) + "')";
+                data = "insert into Advisor(Id, Designation , Salary) values ( '"+ Convert.ToString(txtadvisorid.Text)+"' ,  '" + Convert.ToInt32( Desig) + "', '" + Convert.ToInt32(txtsalary.Text) + "')";
                 SqlCommand cmd = new SqlCommand(data, con);
                 try
                 {
@@ -64,7 +64,10 @@ namespace ProjectA
                         //id = Convert.ToInt32(cmd.ExecuteScalar());
                         //string InsertStudent = "INSERT INTO Student(Id, RegistrationNo) VALUES('" + id + "','" + Convert.ToString(txtRegNo.Text) + "')";
                         //SqlCommand sqlCommand = new SqlCommand(InsertStudent, con);
-                        //sqlCommand.ExecuteNonQuery();
+                        //sqlCommand.ExecuteNonQuery()
+                        this.Close() ;
+                        Advisor a = new Advisor();
+                        a.Show();
 
                     }
                 }
@@ -84,7 +87,7 @@ namespace ProjectA
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Login l = new Login();
+            DashBoard l = new DashBoard();
             this.Hide();
             l.Show();
         }

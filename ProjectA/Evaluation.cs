@@ -72,7 +72,7 @@ namespace ProjectA
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Login l = new Login();
+            DashBoard l = new DashBoard();
             this.Hide();
             l.Show();
         }

@@ -57,6 +57,9 @@ namespace ProjectA
                         string InsertStudent = "INSERT INTO Student(Id, RegistrationNo) VALUES('" + id + "','" + Convert.ToString(txtRegNo.Text) + "')";
                         SqlCommand sqlCommand = new SqlCommand(InsertStudent, con);
                         sqlCommand.ExecuteNonQuery();
+                        this.Hide();
+                        AddStudents aS = new AddStudents();
+                        aS.Show();
 
                     }
                 }
@@ -71,7 +74,7 @@ namespace ProjectA
 
         private void cmdGotoMain_Click(object sender, EventArgs e)
         {
-            Login l = new Login();
+            DashBoard l = new DashBoard();
             this.Hide();
             l.Show();
         }

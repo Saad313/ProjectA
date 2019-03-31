@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace ProjectA
 {
-    public partial class Login : Form
+    public partial class DashBoard : Form
     {
 
         
 
-        public Login()
+        public DashBoard()
         {
             InitializeComponent();
         }
@@ -101,6 +101,13 @@ namespace ProjectA
             ViewStudents vs = new ViewStudents();
             vs.Show();
             this.Hide();
+        }
+
+        private void linkLabel10_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ViewEvaluation ve = new ViewEvaluation();
+            this.Hide();
+            ve.Show();
         }
     }
 }

@@ -81,6 +81,10 @@ namespace ProjectA
                     dataGridView1.Rows.Add(student);
                     
                 }
+                MessageBox.Show("SuccessFully Added");
+                this.Hide();
+                CreatGroup a = new CreatGroup();
+                a.Show();
             }
 
 
@@ -136,12 +140,16 @@ namespace ProjectA
                 cmd.ExecuteNonQuery();
 
             }
-            
+            MessageBox.Show("SuccessFully Added");
+            this.Hide();
+            CreatGroup a = new CreatGroup();
+            a.Show();
+
         }
 
         private void cmdgotomain_Click(object sender, EventArgs e)
         {
-            Login l = new Login();
+            DashBoard l = new DashBoard();
             this.Hide();
             l.Show();
         }

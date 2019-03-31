@@ -29,9 +29,11 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Update = new System.Windows.Forms.DataGridViewButtonColumn();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.Update = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.Delete = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -39,21 +41,13 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Update});
+            this.Update,
+            this.Delete});
             this.dataGridView1.Location = new System.Drawing.Point(124, 52);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(491, 274);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // Update
-            // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Update.DefaultCellStyle = dataGridViewCellStyle1;
-            this.Update.HeaderText = "Update";
-            this.Update.Name = "Update";
-            this.Update.Text = "UPDATE";
-            this.Update.UseColumnTextForButtonValue = true;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // linkLabel1
             // 
@@ -65,6 +59,26 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "GotoMain";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // Update
+            // 
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Update.DefaultCellStyle = dataGridViewCellStyle1;
+            this.Update.HeaderText = "Update";
+            this.Update.Name = "Update";
+            this.Update.Text = "UPDATE";
+            this.Update.UseColumnTextForButtonValue = true;
+            // 
+            // Delete
+            // 
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Delete.DefaultCellStyle = dataGridViewCellStyle2;
+            this.Delete.HeaderText = "Delete";
+            this.Delete.Name = "Delete";
+            this.Delete.Text = "DELETE";
+            this.Delete.UseColumnTextForButtonValue = true;
             // 
             // ViewProject
             // 
@@ -85,7 +99,8 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewButtonColumn Update;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.DataGridViewButtonColumn Update;
+        private System.Windows.Forms.DataGridViewButtonColumn Delete;
     }
 }

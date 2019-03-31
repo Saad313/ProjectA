@@ -58,6 +58,8 @@
     <Compile Include="Advisor.Designer.cs">
       <DependentUpon>Advisor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Advisors.cs" />
+    <Compile Include="AdvisorUtile.cs" />
     <Compile Include="CreatGroup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,18 +67,44 @@
       <DependentUpon>CreatGroup.cs</DependentUpon>
     </Compile>
     <Compile Include="DBconnection.cs" />
+    <Compile Include="EditAdvisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditAdvisor.Designer.cs">
+      <DependentUpon>EditAdvisor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditEvaluation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditEvaluation.Designer.cs">
+      <DependentUpon>EditEvaluation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditProject.Designer.cs">
+      <DependentUpon>EditProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditStudents.Designer.cs">
+      <DependentUpon>EditStudents.cs</DependentUpon>
+    </Compile>
     <Compile Include="Evaluation.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Evaluation.Designer.cs">
       <DependentUpon>Evaluation.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="DashBoard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="DashBoard.Designer.cs">
+      <DependentUpon>DashBoard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Evaluations.cs" />
+    <Compile Include="EvaluationUtile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="AddProject.cs">
       <SubType>Form</SubType>
@@ -90,6 +118,8 @@
     <Compile Include="ProjectAdvisor.Designer.cs">
       <DependentUpon>ProjectAdvisor.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProjectUtile.cs" />
+    <Compile Include="Prooject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Students.cs" />
     <Compile Include="StudentsUtile.cs" />
@@ -98,6 +128,12 @@
     </Compile>
     <Compile Include="ViewAdvisors.Designer.cs">
       <DependentUpon>ViewAdvisors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewEvaluation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewEvaluation.Designer.cs">
+      <DependentUpon>ViewEvaluation.cs</DependentUpon>
     </Compile>
     <Compile Include="ViewProject.cs">
       <SubType>Form</SubType>
@@ -120,11 +156,23 @@
     <EmbeddedResource Include="CreatGroup.resx">
       <DependentUpon>CreatGroup.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EditAdvisor.resx">
+      <DependentUpon>EditAdvisor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditEvaluation.resx">
+      <DependentUpon>EditEvaluation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditProject.resx">
+      <DependentUpon>EditProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditStudents.resx">
+      <DependentUpon>EditStudents.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Evaluation.resx">
       <DependentUpon>Evaluation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="DashBoard.resx">
+      <DependentUpon>DashBoard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddProject.resx">
       <DependentUpon>AddProject.cs</DependentUpon>
@@ -143,6 +191,9 @@
     </Compile>
     <EmbeddedResource Include="ViewAdvisors.resx">
       <DependentUpon>ViewAdvisors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewEvaluation.resx">
+      <DependentUpon>ViewEvaluation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewProject.resx">
       <DependentUpon>ViewProject.cs</DependentUpon>
