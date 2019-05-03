@@ -82,9 +82,9 @@ namespace ProjectA
                     
                 }
                 MessageBox.Show("SuccessFully Added");
-                this.Hide();
-                CreatGroup a = new CreatGroup();
-                a.Show();
+                //this.Hide();
+                //CreatGroup a = new CreatGroup();
+                //a.Show();
             }
 
 

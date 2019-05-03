@@ -39,6 +39,7 @@
             this.linkLabel9 = new System.Windows.Forms.LinkLabel();
             this.linkLabel10 = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
+            this.linkLabel11 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // linkLabel2
@@ -171,11 +172,24 @@
             this.label1.TabIndex = 13;
             this.label1.Text = "FYP Management System";
             // 
+            // linkLabel11
+            // 
+            this.linkLabel11.AutoSize = true;
+            this.linkLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel11.Location = new System.Drawing.Point(280, 422);
+            this.linkLabel11.Name = "linkLabel11";
+            this.linkLabel11.Size = new System.Drawing.Size(100, 20);
+            this.linkLabel11.TabIndex = 14;
+            this.linkLabel11.TabStop = true;
+            this.linkLabel11.Text = "View Groups";
+            this.linkLabel11.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel11_LinkClicked);
+            // 
             // DashBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(677, 443);
+            this.ClientSize = new System.Drawing.Size(680, 455);
+            this.Controls.Add(this.linkLabel11);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.linkLabel10);
             this.Controls.Add(this.linkLabel9);
@@ -207,6 +221,7 @@
         private System.Windows.Forms.LinkLabel linkLabel9;
         private System.Windows.Forms.LinkLabel linkLabel10;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.LinkLabel linkLabel11;
     }
 }
 

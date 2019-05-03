@@ -109,5 +109,12 @@ namespace ProjectA
             this.Hide();
             ve.Show();
         }
+
+        private void linkLabel11_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ViewGroups v = new ViewGroups();
+            this.Hide();
+            v.Show();
+        }
     }
 }

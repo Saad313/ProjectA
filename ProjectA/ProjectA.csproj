@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -135,6 +138,12 @@
     <Compile Include="ViewEvaluation.Designer.cs">
       <DependentUpon>ViewEvaluation.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewGroups.Designer.cs">
+      <DependentUpon>ViewGroups.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewProject.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -195,12 +204,16 @@
     <EmbeddedResource Include="ViewEvaluation.resx">
       <DependentUpon>ViewEvaluation.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ViewGroups.resx">
+      <DependentUpon>ViewGroups.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ViewProject.resx">
       <DependentUpon>ViewProject.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewStudents.resx">
       <DependentUpon>ViewStudents.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

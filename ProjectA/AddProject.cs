@@ -21,18 +21,22 @@ namespace ProjectA
 
         private void cmdAddProject_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(conStr);
-            con.Open();
-            if(con.State == System.Data.ConnectionState.Open)
-            {
-                string Insert = "INSERT INTO Project(Description, Title) VALUES('" + Convert.ToString(txtdescription.Text) + "', '" + Convert.ToString(txttitle.Text) + "')";
-                SqlCommand cmd = new SqlCommand(Insert, con);
-                cmd.ExecuteNonQuery();
+            if(!string.IsNullOrEmpty(txttitle.Text) && !string.IsNullOrEmpty(txtdescription.Text))
+            { 
+                SqlConnection con = new SqlConnection(conStr);
+                con.Open();
+                if(con.State == System.Data.ConnectionState.Open)
+                {
+                    string Insert = "INSERT INTO Project(Description, Title) VALUES('" + Convert.ToString(txtdescription.Text) + "', '" + Convert.ToString(txttitle.Text) + "')";
+                    SqlCommand cmd = new SqlCommand(Insert, con);
+                    cmd.ExecuteNonQuery();
+                }
+                MessageBox.Show("Successfully Added");
+                this.Close();
+                AddProject AP = new AddProject();
+                AP.Show();
             }
-            MessageBox.Show("Successfully Added");
-            this.Close();
-            AddProject AP = new AddProject();
-            AP.Show();
+            else { MessageBox.Show("Enter the values"); }
 
         }
 

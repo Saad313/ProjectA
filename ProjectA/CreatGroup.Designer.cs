@@ -33,12 +33,12 @@
             this.lblstudent = new System.Windows.Forms.Label();
             this.cmbStudentsList = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.RegNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cmdaddtogroup = new System.Windows.Forms.Button();
             this.cmdCreateGroup = new System.Windows.Forms.Button();
             this.cmbStatus = new System.Windows.Forms.ComboBox();
             this.lblStatus = new System.Windows.Forms.Label();
             this.cmdgotomain = new System.Windows.Forms.Button();
+            this.RegNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -89,11 +89,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(450, 202);
             this.dataGridView1.TabIndex = 4;
-            // 
-            // RegNo
-            // 
-            this.RegNo.HeaderText = "RegNo";
-            this.RegNo.Name = "RegNo";
             // 
             // cmdaddtogroup
             // 
@@ -147,6 +142,12 @@
             this.cmdgotomain.UseVisualStyleBackColor = true;
             this.cmdgotomain.Click += new System.EventHandler(this.cmdgotomain_Click);
             // 
+            // RegNo
+            // 
+            this.RegNo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.RegNo.HeaderText = "RegNo";
+            this.RegNo.Name = "RegNo";
+            // 
             // CreatGroup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -178,11 +179,11 @@
         private System.Windows.Forms.Label lblstudent;
         private System.Windows.Forms.ComboBox cmbStudentsList;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn RegNo;
         private System.Windows.Forms.Button cmdaddtogroup;
         private System.Windows.Forms.Button cmdCreateGroup;
         private System.Windows.Forms.ComboBox cmbStatus;
         private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.Button cmdgotomain;
+        private System.Windows.Forms.DataGridViewTextBoxColumn RegNo;
     }
 }
